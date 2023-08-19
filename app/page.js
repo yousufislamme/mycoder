@@ -1,9 +1,13 @@
-import Image from 'next/image'
+"use client"
+import Header from './components/Header/Header'
+import HeroSlider from './components/HeroSlider/HeroSlider'
+
 
 export default function Home() {
   return (
     <main>
-      <h1 className='text-5xl text-center font-extrabold text-purple-500 mt-11'>Hello Saadaf & Yousuf</h1>
+      {/* <Header /> */}
+      <HeroSlider />
     </main>
   )
 }
