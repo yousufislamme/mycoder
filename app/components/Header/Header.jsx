@@ -44,6 +44,15 @@ const Header = () => {
                 Contact
               </Link>
             </li>
+
+            <li className="h-full">
+              <Link
+                className={router.pathname == '/login' ? 'font-semibold' : ''}
+                href="/login"
+              >
+                Login
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
